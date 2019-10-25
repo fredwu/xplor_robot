@@ -1,30 +1,24 @@
 # Xplor Robot
 
-## Background
+## Intro
 
-We are inventing an Xplor child care robot that could take care of some of the
-basic tasks an educator does on a daily basis: nappy changes and sleep checks, etc.
+We are inventing an Xplor child care robot that could take care of the basic
+tasks an educator does on a daily basis, such as nappy changes and sleep checks, etc.
 
 ## Rules
 
-- Given a baby room with a grid
-- There is one Xplor robot in the room
+- Given a baby room in a grid layout, shown below
+- There is one and only one Xplor robot in the room
 - There are multiple babies in the room
-- The robot moves on the grid to perform tasks
+- The babies all have different needs, i.e. the robot needs to perform different tasks on them
+
+### Robot’s Movement Rules
+
 - The robot starts at origin (bottom left of the grid), i.e. `0, 0`
-- The babies all have different needs (i.e. the robot needs to perform different tasks on them)
-- Robot’s movements:
-  - Each movement from one cell to another on the grid takes one turn
-  - Each task takes one turn (moving from one grid to another, and performing a task, in this case would consume two turns)
-  - Switching between different types of tasks to perform also takes one turn (e.g. after having completed nappy change, moving from cell `1, 1` to `2, 2` to perform sleep check will take a total of 4 turns - 2 turns for movement, 1 turn for task switching and 1 turn for performing the task itself)
-
-## The Challenge
-
-Calculate the number of turns required for the robot to complete all tasks for
-all babies.
-
-Bonus: Calculate the most optimal path for the robot to complete all tasks, i.e.
-the robot uses the least amount of turns.
+- The robot moves on the grid to perform tasks, it can only move in left, right, up and down, no diagonal movements are allowed
+- Each movement from one grid cell to another takes one turn
+- Each task takes one turn to complete, e.g. moving from one grid cell to another, then performing a task, in this case would consume two turns
+- Switching between different types of tasks to perform also takes one turn, e.g. after having completed nappy change, moving from cell `1, 1` to `2, 2` to perform sleep check will take a total of 4 turns - 2 turns for movement, 1 turn for task switching and 1 turn for performing the task itself
 
 ## The Baby Room
 
@@ -78,7 +72,24 @@ the robot uses the least amount of turns.
   </tr>
 </table>
 
-## Solution
+## The Challenge
+
+Calculate the number of turns required for the robot to complete all tasks for
+all babies.
+
+Bonus: Calculate the most optimal path for the robot to complete all tasks, i.e.
+the robot completes all tasks using the least amount of turns.
+
+### Required Outputs
+
+1. The number of turns
+2. The path that the Xplor robot walked
+
+> Note: there is no defined structure for how the path should be output or displayed, as long as it clearly demonstrates __how__ you got to the number of turns result.
+
+---
+
+## Reference Solution
 
 Brute Force.™
 
