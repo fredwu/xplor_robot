@@ -23,6 +23,9 @@ basic tasks an educator does on a daily basis: nappy changes and sleep checks, e
 Calculate the number of turns required for the robot to complete all tasks for
 all babies.
 
+Bonus: Calculate the most optimal path for the robot to complete all tasks, i.e.
+the robot uses the least amount of turns.
+
 ## The Baby Room
 
 <table>
