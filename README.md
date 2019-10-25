@@ -26,15 +26,15 @@ all babies.
 ## The Baby Room
 
 <table>
-  <tr style="height: 100px;">
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
+  <tr>
+    <td width="20%"><br /><br /><br /><br /></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
   </tr>
-  <tr style="height: 100px;">
-    <td width="20%"><br /></td>
+  <tr>
+    <td width="20%"><br /><br /><br /><br /></td>
     <td width="20%">
       <strong>Baby</strong>
       <ul>
@@ -42,13 +42,13 @@ all babies.
         <li>Food</li>
       </ul>
     </td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
+    <td width="20%"><br /><br /><br /><br /></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
   </tr>
-  <tr style="height: 100px;">
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
+  <tr>
+    <td width="20%"><br /><br /><br /><br /></td>
+    <td width="20%"></td>
     <td width="20%">
       <strong>Baby</strong>
       <ul>
@@ -62,10 +62,10 @@ all babies.
         <li>Sleep check</li>
       </ul>
     </td>
-    <td width="20%"><br /></td>
+    <td width="20%"></td>
   </tr>
-  <tr style="height: 100px;">
-    <td width="20%"><br /></td>
+  <tr>
+    <td width="20%"><br /><br /><br /><br /></td>
     <td width="20%">
       <strong>Baby</strong>
       <ul>
@@ -73,16 +73,16 @@ all babies.
         <li>Sleep check</li>
       </ul>
     </td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
   </tr>
-  <tr style="height: 100px;">
-    <td width="20%"><strong>ROBOT</strong></td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
-    <td width="20%"><br /></td>
+  <tr>
+    <td width="20%"><strong>ROBOT</strong><br /><br /><br /><br /></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
+    <td width="20%"></td>
   </tr>
 </table>
 
