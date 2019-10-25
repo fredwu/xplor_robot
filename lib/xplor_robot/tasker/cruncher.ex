@@ -40,8 +40,7 @@ defmodule XplorRobot.Tasker.Cruncher do
     stack = [{prev_count, [current | remaining]} | stack]
 
     Task.async(fn ->
-      remaining
-      |> Enum.map(fn task ->
+      Enum.map(remaining, fn task ->
         crunch(
           TurnCounter.count(current, task) + prev_count,
           task,

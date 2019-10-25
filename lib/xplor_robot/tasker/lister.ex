@@ -18,9 +18,7 @@ defmodule XplorRobot.Tasker.Lister do
   def gen(input_map) do
     input_map
     |> Enum.map(fn {{x, y}, tasks} ->
-      Enum.map(tasks, fn task ->
-        {x, y, task}
-      end)
+      Enum.map(tasks, &{x, y, &1})
     end)
     |> List.flatten()
   end

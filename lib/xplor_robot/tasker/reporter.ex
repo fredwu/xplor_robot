@@ -13,10 +13,7 @@ defmodule XplorRobot.Tasker.Reporter do
   [7, 8]
   """
   def final_numbers(crunches) do
-    crunches
-    |> Enum.map(fn {:final, n, _} ->
-      n
-    end)
+    Enum.map(crunches, fn {:final, n, _} -> n end)
   end
 
   @doc """
