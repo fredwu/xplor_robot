@@ -102,7 +102,7 @@ mix test
 ### Run test suite with the shortest path output
 
 ```
-mix test --include inspect
+mix test --include report
 ```
 
 ## Copyleft

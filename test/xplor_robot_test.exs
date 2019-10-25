@@ -14,7 +14,7 @@ defmodule XplorRobotTest do
     assert 16 == turns
   end
 
-  @tag :inspect
+  @tag :report
   test "inspect possible paths" do
     XplorRobot.start()
     |> Reporter.final_numbers()
@@ -22,7 +22,7 @@ defmodule XplorRobotTest do
     |> IO.inspect()
   end
 
-  @tag :inspect
+  @tag :report
   test "inspect shortest path" do
     XplorRobot.start()
     |> Reporter.shortest_path()

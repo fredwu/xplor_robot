@@ -1,1 +1,1 @@
-ExUnit.start(exclude: [:inspect])
+ExUnit.start(exclude: [:report])
