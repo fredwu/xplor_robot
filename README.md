@@ -30,14 +30,7 @@ the robot uses the least amount of turns.
 
 <table>
   <tr>
-    <td width="20%"><br /><br /><br /><br /></td>
-    <td width="20%"></td>
-    <td width="20%"></td>
-    <td width="20%"></td>
-    <td width="20%"></td>
-  </tr>
-  <tr>
-    <td width="20%"><br /><br /><br /><br /></td>
+    <td width="20%"><br /><br /><br /><br /><br /></td>
     <td width="20%">
       <strong>Baby</strong>
       <ul>
@@ -45,19 +38,6 @@ the robot uses the least amount of turns.
         <li>Food</li>
       </ul>
     </td>
-    <td width="20%"><br /><br /><br /><br /></td>
-    <td width="20%"></td>
-    <td width="20%"></td>
-  </tr>
-  <tr>
-    <td width="20%"><br /><br /><br /><br /></td>
-    <td width="20%"></td>
-    <td width="20%">
-      <strong>Baby</strong>
-      <ul>
-        <li>Nappy change</li>
-      </ul>
-    </td>
     <td width="20%">
       <strong>Baby</strong>
       <ul>
@@ -68,7 +48,18 @@ the robot uses the least amount of turns.
     <td width="20%"></td>
   </tr>
   <tr>
-    <td width="20%"><br /><br /><br /><br /></td>
+    <td width="20%"><br /><br /><br /><br /><br /></td>
+    <td width="20%"></td>
+    <td width="20%">
+      <strong>Baby</strong>
+      <ul>
+        <li>Nappy change</li>
+      </ul>
+    </td>
+    <td width="20%"></td>
+  </tr>
+  <tr>
+    <td width="20%"><br /><br /><br /><br /><br /></td>
     <td width="20%">
       <strong>Baby</strong>
       <ul>
@@ -78,11 +69,9 @@ the robot uses the least amount of turns.
     </td>
     <td width="20%"></td>
     <td width="20%"></td>
-    <td width="20%"></td>
   </tr>
   <tr>
-    <td width="20%"><strong>ROBOT</strong><br /><br /><br /><br /></td>
-    <td width="20%"></td>
+    <td width="20%"><strong>ROBOT</strong><br /><br /><br /><br /><br /></td>
     <td width="20%"></td>
     <td width="20%"></td>
     <td width="20%"></td>

@@ -7,7 +7,7 @@ defmodule XplorRobot.BabyMap do
     {2, 2} => [
       :nappy_change,
     ],
-    {3, 2} => [
+    {2, 3} => [
       :nappy_change,
       :sleep_check,
     ],

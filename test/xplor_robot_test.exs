@@ -11,7 +11,15 @@ defmodule XplorRobotTest do
       |> Reporter.final_numbers()
       |> Enum.min()
 
-    assert 18 == turns
+    assert 16 == turns
+  end
+
+  @tag :inspect
+  test "inspect possible paths" do
+    XplorRobot.start()
+    |> Reporter.final_numbers()
+    |> Enum.sort()
+    |> IO.inspect()
   end
 
   @tag :inspect
