@@ -2,7 +2,7 @@ defmodule XplorRobotTest do
   use ExUnit.Case, async: true
 
   alias XplorRobot.BabyMap
-  alias XplorRobot.Tasker.{Cruncher, Lister}
+  alias XplorRobot.Tasker.{Cruncher, Lister, Reporter}
 
   doctest XplorRobot
 
@@ -11,7 +11,7 @@ defmodule XplorRobotTest do
       %BabyMap{}.map
       |> Lister.gen()
       |> Cruncher.crunch()
-      |> Cruncher.final_numbers()
+      |> Reporter.final_numbers()
       |> Enum.min()
 
     assert 18 == turns
@@ -20,7 +20,7 @@ defmodule XplorRobotTest do
   @tag :inspect
   test "inspect shortest path" do
     XplorRobot.start()
-    |> Cruncher.shortest_path()
+    |> Reporter.shortest_path()
     |> IO.inspect()
   end
 end
