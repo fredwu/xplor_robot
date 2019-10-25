@@ -11,12 +11,12 @@ basic tasks an educator does on a daily basis: nappy changes and sleep checks, e
 - There is one Xplor robot in the room
 - There are multiple babies in the room
 - The robot moves on the grid to perform tasks
-- The robot starts at origin (bottom left of the grid), i.e. 0,0
+- The robot starts at origin (bottom left of the grid), i.e. `0, 0`
 - The babies all have different needs (i.e. the robot needs to perform different tasks on them)
 - Robot’s movements:
   - Each movement from one cell to another on the grid takes one turn
   - Each task takes one turn (moving from one grid to another, and performing a task, in this case would consume two turns)
-  - Switching between different types of tasks to perform also takes one turn (e.g. after having completed nappy change, moving from cell 1,1 to 2, 2 to perform sleep check will take a total of 4 turns - 2 turns for movement, 1 turn for task switching and 1 turn for performing the task itself)
+  - Switching between different types of tasks to perform also takes one turn (e.g. after having completed nappy change, moving from cell `1, 1` to `2, 2` to perform sleep check will take a total of 4 turns - 2 turns for movement, 1 turn for task switching and 1 turn for performing the task itself)
 
 ## The Challenge
 
