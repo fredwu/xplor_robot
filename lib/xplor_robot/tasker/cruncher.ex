@@ -73,10 +73,16 @@ defmodule XplorRobot.Tasker.Cruncher do
     end)
   end
 
+  @doc """
+  iex> Cruncher.shortest_path([
+  iex>   {:final, 7, []},
+  iex>   {:final, 8, []},
+  iex>   {:final, 3, []},
+  iex>   {:final, 9, []},
+  iex> ])
+  {:final, 3, []}
+  """
   def shortest_path(crunches) do
-    crunches
-    |> Enum.min_by(fn {:final, n, _} ->
-      n
-    end)
+    Enum.min_by(crunches, fn {:final, n, _} -> n end)
   end
 end
