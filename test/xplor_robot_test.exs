@@ -1,16 +1,13 @@
 defmodule XplorRobotTest do
   use ExUnit.Case, async: true
 
-  alias XplorRobot.BabyMap
-  alias XplorRobot.Tasker.{Cruncher, Lister, Reporter}
+  alias XplorRobot.Tasker.Reporter
 
   doctest XplorRobot
 
   test "baby room" do
     turns =
-      %BabyMap{}.map
-      |> Lister.gen()
-      |> Cruncher.crunch()
+      XplorRobot.start()
       |> Reporter.final_numbers()
       |> Enum.min()
 

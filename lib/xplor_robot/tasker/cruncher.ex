@@ -1,15 +1,13 @@
 defmodule XplorRobot.Tasker.Cruncher do
   alias XplorRobot.Router.TurnCounter
 
-  @origin {0, 0, nil}
-
   @doc """
   iex> [
   iex>   {1, 1, :nappy_change},
   iex>   {1, 1, :sleep_check},
   iex>   {2, 2, :nappy_change},
   iex> ]
-  iex> |> Cruncher.crunch()
+  iex> |> Cruncher.crunch({0, 0, nil})
   iex> |> Reporter.final_numbers()
   [9, 10, 8, 10, 10, 11]
 
@@ -28,8 +26,8 @@ defmodule XplorRobot.Tasker.Cruncher do
     ]}
   ]
   """
-  def crunch(tasks) do
-    crunch(0, @origin, tasks, [])
+  def crunch(tasks, origin) do
+    crunch(0, origin, tasks, [])
   end
 
   def crunch(prev_count, current, remaining, stack \\ [])
