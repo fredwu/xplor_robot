@@ -1,5 +1,5 @@
 defmodule XplorRobot.Tasker.Cruncher do
-  alias XplorRobot.Router.TurnCounter
+  alias XplorRobot.Counter.Turn
 
   @doc """
   iex> [
@@ -42,7 +42,7 @@ defmodule XplorRobot.Tasker.Cruncher do
     Task.async(fn ->
       Enum.map(remaining, fn task ->
         crunch(
-          TurnCounter.count(current, task) + prev_count,
+          Turn.count(current, task) + prev_count,
           task,
           remaining -- [task],
           stack
